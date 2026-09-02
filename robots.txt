@@ -1,0 +1,3 @@
+# Preview build. The canonical home is https://launcht.co.za
+User-agent: *
+Disallow: /
