@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#112D4E" />
-    <link rel="icon" type="image/png" href="/launcht-site-preview/favicon.png" />
+    <!-- SVG first so the mark stays exact on a high-DPI tab, PNG for anything that will
+         not take a vector favicon. -->
+    <link rel="icon" type="image/svg+xml" href="/launcht-site-preview/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/launcht-site-preview/favicon.png" />
     <link rel="apple-touch-icon" href="/launcht-site-preview/logos/apple-touch-icon.png" />
     <!-- Two preloads. The serif sets the H1, which is the largest line on every page, so
          letting it swap would reflow the thing the visitor is reading first. Inter carries
